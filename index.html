@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/csss.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body class="fundo">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#" style="margin-left:10px;">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavBar"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse " id="menuNavBar">
+             <ul class="navbar-nav me-auto mb-lg-0">
+                  <li class="navbar-item">
+                      <a class="nav-link active" href="#eu">Quem sou eu</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a class="nav-link active" href="#eu">Biopark</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a class="nav-link active" href="#setorBranco">O que é o Connect</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a class="nav-link active" href="#setorAqua">Disciplinas</a>
+                  </li>
+              </ul>
+          </div>
+        </div>  
+   </nav>
+    <div class="div-principal">
+   
+  
+      <div id="exemploCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <!--data-bs-target=Componenete que indica que o akela div esta nesse botão e faz o carrosel girar
+              data-bs-slide-to= ordem das quais as img abrirão
+              aria-current=quer representar como se o botão tivesse sido pressionado
+              aria-label=nome q aparece na imagem-->
+              <button type="button" data-bs-target="#exemploCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foto 1"></button>
+          
+              <button type="button" data-bs-target="#exemploCarousel" data-bs-slide-to="1" aria-label="Foto 2"></button>
+          
+              <button type="button" data-bs-target="#exemploCarousel" data-bs-slide-to="2" aria-label="Foto 3"></button>
+          </div> 
+          <!--<div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="" class="d-block w-100">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Biopark Connect Html </h5>
+                      <p>curso de html</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="" class="d-block w-100">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Biopark Connect Html </h5>
+                      <p>curso de html</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="" class="d-block w-100">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Biopark Connect Html </h5>
+                      <p>curso de html</p>
+                  </div>
+              </div>
+          </div>-->
+          <button class="carousel-control-prev" type="button" data-bs-target="#exemploCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+          <button class="carousel-control-next" type="button" data-bs-target="#exemploCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+      </div>
+
+      <div class="container">
+          <br id="eu"><br><hr><br>
+          <div  class="row">
+            <div  class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="background-color:#7B95A6; border-radius: 4px;">
+                <div class="row ">
+                   <h2 class="fonte">Quem sou eu</h2>
+                   <p> &#160; &#160;Lukas Bernardi da Silva, estudante de TSI(tranquei), estudo progrmação no Biopark, gosto de mangas,
+                      animes(cultura japonesa em geral), gosto de ouvir música, jogar bola, <s>incomodar</s> brincar com 
+                      meus cachorros, gosto de ler livros e de relaxar fazendo absolutamente nada, só ficar parado olhando pro teto &#x1F603;
+                  </p>
+                </div>
+            </div>
+            <div  class="col-xs-3 col-sm-6 col-md-6 col-lg-6" style="background: no-repeat center; background-size: cover;">
+                <div class="card" >
+                    <img id="image" class="imgbpk" src="https://media-exp1.licdn.com/dms/image/C560BAQHled_7WFcf0g/company-logo_200_200/0/1601305631708?e=2159024400&v=beta&t=Uf_GGKMDaLEPeLEBhZwOdaQsHQkneGr2KU2KfSQoUDY" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><h3 class="fonte">Biopark</h3></h5>
+                      <p class="card-text">Biopark é uma instituição tecnoloógica que tem paixão pela inovação!</p>
+                      <a style="background-color: black;  border-color: black;" id="but" href="https://biopark.com.br/sobre/" target="_blank" rel="external" class="btn btn-primary">Sobre o Biopark</a>
+                    </div>
+                </div>
+            </div>
+          </div>                  
+          <br id="setorBranco" ><hr>
+          <div class="row" style="background-color: #ffffff;">
+              <div>
+                <div class="card" >
+                    <h2 style="text-align: center;"><h3 class="fonte">O que é o Connect</h3></h2>
+                    <div class="card-body">
+                      <p>Bem, o Connect é um curso de programação, onde eu aprendi e estou aprendendo um monte de coisas!
+                         Fiz novos amigos, estou adquirindo novos conhecimentos, habilidades e valores. Acho que estou 
+                         conseguindo me conhecer um pouco mais como pessoa, desenvolvendo as minhas hardskills e em paralelo as minhas softskills!</p> 
+                    </div>
+                  </div>
+             </div>
+          </div>
+          <br><hr>
+          <div class="row" id="setorAqua" style="background-color: #D2D3D9;">
+             <h2 style="text-align: center;">Resumo da disciplinas</h2>
+              <div>
+                  <br>
+
+                <h3 class="fonte">Estrutura de dados</h3>
+                    <!-- Button trigger modal -->
+                <button id="but" id="but" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                 style="background-color: black;  border-color: black;">
+                    Saber mais
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Estrutura de Dados aprendemos em C!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="width: 100%;">
+                            <img style="height: 400px;" src="https://st3.depositphotos.com/5366154/13886/i/1600/depositphotos_138867206-stock-photo-fire-letter-c-of-burning.jpg" class="card-img-top" alt="...">
+                            <br><br>
+                            <p>Bem, eu achei uma matéria meio complexa, mas o professor é bom então acaba sendo um pouco mais leve,
+                               porém tem uns conteúdos que são difíceis, e exigem mais de mim do que eu esperava. Nada que estudo e esforço não resolvão.
+                           </p>
+                        </div>
+                        <div class="modal-footer">
+                        <button id="but" style= "background-color: violet;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendi</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <hr><br>
+                
+                <h3 class="fonte">Java</h3>
+                    <!-- Button trigger modal -->
+                <button id="but"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um" style="background-color: black;  border-color: black;">
+                    Saber mais
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="um" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Java é verboso, mas também é legal!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="width: 100%;"> 
+                            <img style="height: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxovjlqV_0xBHP3n1XM8TpECoEmFj9YqrTNiiv66sqfIKllFvz32HYliYN7XsEE_tE38Q&usqp=CAU" class="card-img-top" alt="...">                         
+                            <p>Quem ensinou Java foi a prof Roberta(também é a coordenadora do curso) e o prof Paulinho(que será citado novamente em JS)!
+                               No começo eu achei um saco! Muito verbosa. Escrevi um certa quantia de coisas para aaparecer apenas um: "Hello world!", porém
+                               eu aprendi várias coisas em Java, e apartir delas eu realmente comecei a gostar de desenvolver em Java. Graças aos bons professores
+                               consegui entender o valor de Java.
+                           </p> 
+                        </div>
+                        <div class="modal-footer">
+                            <button id="but" style= "background-color: violet;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendi</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <hr><br>
+                <h3 class="fonte">Engenharia de Software</h3>
+                    <!-- Button trigger modal -->
+                <button id="but" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dois" style="background-color: black;  border-color: black;">
+                    Saber mais
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="dois" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Engenharia de Software tem muitos detalhes!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="width: 100%;">   
+                            <img style="height: 300px;" src="https://cursos.unipampa.edu.br/cursos/engenhariadesoftware/files/2016/08/Logo-ES-Fundo-branco.png" class="card-img-top" alt="...">                       
+                            <p>É a matéria que mais teórica e não tem que programar! Sinceramente, ela é a que menos gostei, porém a professora que ensina é
+                                legal e gente boa pra caramba, não que os outros professores não sejam, mas a de Engenharia de Software deixa a matéria
+                                mais divertida e leve.
+                           </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button id="but" style= "background-color: violet;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendi</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+               <hr><br>
+                        <h3 class="fonte">Softskills</h3>
+                        <!-- Button trigger modal -->
+                    <button id="but" id="but"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tres" style="background-color: black;  border-color: black;">
+                        Saber mais
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="tres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Aprendendo a me programar!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" style="width: 100%;">    
+                                <img style="height: 300px;" src="https://www.globalempregos.com.br/wp-content/uploads/2021/08/hard-soft-skills.jpg" class="card-img-top" alt="...">                                             
+                                <p>Quem ensina essa disciplina é a prof Denise! Ela é muito entusiasmada com o conteúdo que ela passa,
+                                   e ela fala umas coisas que eu paro e penso: "Carambolas! Isso é pra mim!". Por mais que no começo
+                                   eu não me senti muito atraído, agora já posso dizer que a matéria despertou meu interesse!
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="but" style= "background-color: violet;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendi</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                <hr><br>
+                  
+                <h3 class="fonte">Metodologias Ágeis</h3>
+                        <!-- Button trigger modal -->
+                    <button style="background-color: black;  border-color: black;" id="but" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quatro">
+                        Saber mais
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="quatro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Ágil não quer dizer rápido!!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" style="width: 100%;"> 
+                                <img style="height: 300px; width: 450px;" src="https://technoeasy.com.br/wp-content/uploads/2020/04/metodologias-ageis-1200x480.png" alt="">                         
+                                <br><br>
+                                <p>Bem, quem aplica esta matériaé o prof Wagner! Ele ensinou Scrum, Kanban e ensinou que ágil, não quer dizer rápido!
+                                   Com as aulas dele, entendi que para se terum bom projeto, deve-se ter um bom grupo, um bom planejamento e um bom nível
+                                   de maturidade para aplicar a metodologia ágil!
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="but" style= "background-color: violet;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendi</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                <hr><br>
+                        <h3 class="fonte">Banco de dados</h3>
+                        <!-- Button trigger modal -->
+                    <button id="but" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cinco" style="background-color: black;  border-color: black;">
+                        Saber mais
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="cinco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Guarda coisas, tipo banco de sangue, só que em vez de sangue são dados!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" style="width: 100%;"> 
+                                <img style="height: 300px; width: 466px;" src="https://solvimm.com/wp-content/uploads/2019/11/Destacada_Qual_tipo_de_Banco_de_Dados_utilizar.png" alt="">                         
+                               <br><br>
+                                <p>Aplicada pelo professor Willam! Ele ensina bem, e banco de dados(até agora) não é tão difícil. Gostei de bancos dados
+                                   e de cria-lo, além disso o professor parece ser gente boa, então a matéria é bem show!
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="but" style= "background-color: violet;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendi</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                <hr><br>
+
+                <h3 class="fonte">Html, CSS e Java Script</h3>
+                        <!-- Button trigger modal -->
+                    <button id = "but" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#seis" style="background-color: black;  border-color: black;">
+                        Saber mais
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="seis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Fazer sites bonitos e responsivos!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" style="width: 100%;">   
+                                <img style="height: 300px;" src="https://www.alura.com.br/artigos/assets/html-css-js/fundo-card.png" alt="">                       
+                                <p>Aplicada pelo professor Paulinho(falei que ele irira ser citado novamente! Ele ensina bem, e banco de dados(até agora) não é tão difícil. Gostei de bancos dados
+                                   e de cria-lo, além disso o professor parece ser gente boa, então a matéria é bem show!
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="but" style= "background-color: violet;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendi</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                <hr><br>
+
+                <h3 class="fonte">Monitoria</h3>
+                        <!-- Button trigger modal -->
+                    <button id="but" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sete" style="background-color: black;  border-color: black;">
+                        Saber mais
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="sete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Momento em que consigo render fazendo exercícios!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" style="width: 100%;">     
+                                <img style="height:300px; width: 466px;" src="http://www.unicerrado.edu.br/site/wp-content/uploads/2021/03/resultado_monitoria-1.png" alt="">        
+                                <br><br>             
+                                <p>A monitoria é aplicada pela prof Milena! Ela tira bme as dúvidas e ela é bem atenciosa! Ela pareceu
+                                    ser um pouco tímida, mas acho que tive a impressão errada!
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="but" style= "background-color: violet;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendi</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                <hr><br>
+                  
+              </div>
+          </div>
+          <br>
+          
+      </div>
+       <br>
+</div>
+
+        
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+</body>
+</html>
